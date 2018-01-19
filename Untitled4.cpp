@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -18,3 +19,7 @@ int main () {
 	
 	bambu.bahan("bambu terbuat dari pohonnya sendiri");
 }
+void layangan::bahan(string bambu){
+	cout<<"layangan ini sangat mudah diterbangkan "<<bambu<<"layangan ini sangat indah kalo lagi terbang"<<endl;
+}
+
